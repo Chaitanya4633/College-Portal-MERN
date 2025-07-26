@@ -1,31 +1,30 @@
-#** 🎓 College Portal - MERN Stack Application**
+**# 🎓 College Portal - MERN Stack Application**
 
-A full-stack web application developed using the **MERN stack (MongoDB, Express.js, React.js, Node.js)**. This platform allows students and faculty to manage and access important academic resources such as timetables, course materials, notifications, and more in one centralized location.
+A centralized college web application built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js), designed to help students and faculty manage academic content, including timetables, courses, and notifications efficiently.
 
----
-
-**## 🚀 Features**
-
-- 🧑‍🎓 Student & Faculty Login
-- 📥 Downloadable Timetables & Course Materials
-- 📰 Admin/Fee Notifications System
-- 📋 Dashboard View for Personalized Info
-- 🔐 Secure Authentication (JWT based)
-- 📁 File Uploads and Downloads
-- 🌐 RESTful API Integration
+🌐 Live Demo: [college-portal-mern.onrender.com](https://college-portal-mern.onrender.com)
 
 ---
 
 **## 🧩 Tech Stack**
-**Frontend:**
-- React.js
-- React Router
-- Axios
-- Tailwind CSS / Bootstrap (optional)
 
-**Backend:**
-- Node.js
-- Express.js
-- MongoDB (Mongoose)
-- JWT for Authentication
-- Multer for File Handling
+- **Frontend:** React.js, React Router DOM, Axios, Tailwind CSS (optional)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB with Mongoose
+- **Authentication:** JSON Web Tokens (JWT)
+- **File Handling:** Multer for uploads/downloads
+
+---
+
+**## 📌 Features
+**
+- 🔐 User Authentication (Student & Faculty Login)
+- 📁 Timetable & Course Material Upload/Download
+- 📢 Admin Notifications & Fee Alerts
+- 🧑‍🎓 Student Dashboard & Course Viewer
+- 🗂️ Role-based Content Access
+- 🌐 RESTful API Integration
+
+---
+
+
