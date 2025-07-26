@@ -1,0 +1,47 @@
+.attendance-container {
+  background-color: #000;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.attendance-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.attendance-stats {
+  background-color: #333;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.attendance-stats h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.attendance-stats p {
+  margin: 5px 0;
+}
+
+.attendance-stats .warning {
+  color: #ff4500;
+  font-weight: bold;
+}
+
+.attended-topics h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.attended-topics ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.attended-topics li {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding: 5px;
+  background-color: #222; /* Add background to match the design */
+}
+
+.mentor-button {
+  border: solid;
+  height: 35px;
+  margin-top: 8px;
+  margin-right: 15px;
+  text-align: center;
+  border-width: 1px;
+  border-radius: 9px;
+  padding: 10px;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+}
+
+.light-button,
+.profile-button {
+  height: 50px;
+  width: 50px;
+  background: transparent;
+  border: none;
+  margin-right: 15px;
+}
+
+.light-img,
+.profile-img {
+  height: 30px;
+  width: 30px;
+}

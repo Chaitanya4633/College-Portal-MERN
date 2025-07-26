@@ -1,0 +1,92 @@
+.complaint-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.complaint-form {
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+}
+
+.complaint-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.complaint-form button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.complaint-form button:hover {
+  background-color: #357abd;
+}
+
+.error-message {
+  color: #d32f2f;
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+
+.complaint-list {
+  margin-top: 20px;
+}
+
+.complaint-list h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.complaint-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.complaint-text {
+  flex-grow: 1;
+}
+
+.complaint-date {
+  display: block;
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 5px;
+}
+
+.delete-button {
+  background-color: #ff4444;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
+
+.no-complaints {
+  color: #666;
+  text-align: center;
+  margin-top: 20px;
+}

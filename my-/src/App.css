@@ -1,0 +1,46 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  color: rgb(238, 75, 43);
+}
+
+.content {
+  margin-left: 200px; /* Match the Sidebar width */
+  margin-top: 50px; /* Match the Header height */
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.subject {
+  background-color: rgb(54, 54, 54);
+  border: 1px solid rgb(103, 103, 103);
+  border-radius: 6px;
+  padding: 10px;
+  width: 200px;
+  color: white;
+  transition: background-color 1s;
+}
+
+.subject:hover {
+  background-color: rgb(66, 65, 65);
+}
+
+h2 {
+  color: rgb(238, 75, 43);
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  font-size: 15px;
+}

@@ -1,0 +1,84 @@
+.biodata-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.biodata {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: #ff6347;
+  align-items: center;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(121, 118, 118);
+  transition: box-shadow 2s;
+  outline: none;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.biodata:hover {
+  box-shadow: 2px 2px 2px rgb(86, 86, 86);
+}
+
+.dp {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.profile-selection {
+  height: 30px;
+  position: relative;
+  bottom: 25px;
+  left: 15px;
+  cursor: pointer;
+}
+
+#name {
+  margin-top: 2px;
+  margin-bottom: 0px;
+  color: white;
+  font-weight: bold;
+}
+
+#mail {
+  margin-top: 0px;
+  color: white;
+}
+
+.public {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 15px 0px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.public p {
+  margin: 0;
+  color: black;
+}
+
+.record-button {
+  width: 55px;
+  height: 25px;
+  outline: none;
+  border: none;
+  border-radius: 15%;
+  background-color: rgb(63, 43, 238);
+  margin-top: 10px;
+}
+
+.record-icon {
+  width: 10px;
+  margin: 0px;
+  padding: 0px;
+  left: 0px;
+}

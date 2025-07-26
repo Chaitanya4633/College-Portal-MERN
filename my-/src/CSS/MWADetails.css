@@ -1,0 +1,204 @@
+* {
+  padding: 0;
+  margin-left: 10px;
+}
+
+body {
+  background-color: black;
+  color: rgb(212, 210, 210);
+  height: 1000px;
+  margin-left:200px;
+}
+
+h2 {
+  font-weight: bolder;
+  color: rgb(238, 75, 43);
+  margin-bottom: 0px;
+}
+
+p,
+.highlights-content p,
+h3 {
+  margin-top: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+.key,
+.highlights-content,
+.note,
+.unit1,
+.unit2,
+.unit3,
+.unit4,
+.unit5,
+.book {
+  padding: 10px 10px 10px 0px;
+  margin: 10px 15px 10px 10px;
+  display: block;
+  width: 800px;
+  cursor: pointer;
+  color: white;
+  border: solid;
+  border-width: 1px;
+  border-radius: 6px;
+  border-color: rgb(103, 103, 103);
+  background-color: rgb(54, 54, 54);
+  transition: background-color 1s;
+}
+
+.book {
+  width: 600px;
+  padding: 15px 15px 15px 15px;
+}
+
+.download {
+  padding: 5px 15px 5px 15px;
+  background-color: rgb(238, 75, 43);
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+
+.highlights-content p {
+  margin-left: 20px;
+}
+
+.key:hover,
+.note:hover,
+.unit1:hover,
+.unit2:hover,
+.unit3:hover,
+.unit4:hover,
+.unit5:hover {
+  background-color: rgb(66, 65, 65);
+}
+
+.key,
+.note,
+.unit1,
+.unit2,
+.unit3,
+.unit4,
+.unit5 {
+  text-align: left;
+  padding-left: 25px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.progress {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.progress-left {
+  width: 200px;
+  border-width: 1px;
+  height: 25px;
+  border-style: solid;
+  background-color: rgb(54, 54, 54);
+  border-radius: 6px;
+  text-align: left;
+  padding: 3px 3px 3px 3px;
+}
+
+.progress-left h3 {
+  color: rgb(238, 75, 43);
+  margin-top: 0px;
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+
+.suffle-img {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.progress-right {
+  width: 175px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.revision-button {
+  color: white;
+  font-size: 12px;
+  background-color: rgb(238, 75, 43);
+  border: none;
+  padding: 0px 15px 0px 15px;
+  border-radius: 5px;
+}
+
+.revision-button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.syllabus {
+  width: 900px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(103, 103, 103);
+  padding: 15px 10px 25px 10px;
+  box-shadow: 2px 2px 2px rgb(77, 77, 77);
+  transition: box-shadow 2s;
+}
+
+.syllabus:hover {
+  box-shadow: 4px 4px 4px rgb(111, 111, 111);
+}
+
+table,
+th,
+tr,
+td {
+  border-width: 1px;
+  border: 1;
+  padding: 10px 10px 10px 10px;
+  border-color: rgb(151, 152, 150);
+  border-style: solid;
+  border-collapse: collapse;
+}
+
+table {
+  width: 750px;
+}
+
+th {
+  height: 40px;
+  color: rgb(238, 75, 43);
+}
+
+td {
+  text-align: center;
+}
+
+td img {
+  background-color: transparent;
+  height: 20px;
+}
+table {
+  width: 100%;           /* Ensure the table takes full available width */
+  table-layout: auto;    /* Let columns size based on content */
+}
+
+th:nth-child(2), td:nth-child(2) { /* Target the "PROBLEM" column (2nd column) */
+  width: 50%;            /* Allocate 50% of the table width to "PROBLEM" */
+  padding: 10px;         /* Add some padding for readability */
+}
+
+.Status {
+  width: 50px;
+  min-width: 40px;
+  height: 20px;
+  text-align: center;
+  padding: 5px;
+}

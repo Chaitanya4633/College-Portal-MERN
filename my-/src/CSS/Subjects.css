@@ -1,0 +1,80 @@
+.subjects-container{
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  /* margin-left:150px; */
+}
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin-left:100px;
+}
+
+.subjects-search{
+   margin-top:40px; 
+  margin-left:350px;
+  margin-bottom:50px;
+}
+input{
+  padding:10px;
+  width:300px;
+  border:3px;
+  border-color:rgb(247, 247, 247);
+  background-color: rgb(34, 34, 34);
+  color:white;
+}
+.subject {
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.subject h2 {
+  color: purple;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subject p {
+  color: white;
+  font-size: 14px;
+}
+
+.subject:hover {
+  cursor: pointer;
+  border-color: rgb(238, 75, 43);
+  color: rgb(238, 75, 43);
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.sidebar button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  margin: 5px 0;
+  transition: all 0.3s ease;
+}
+
+.sidebar button:hover {
+  background-color: white;
+  color: black;
+}
+
+.Headers{
+  margin-left:120px;
+  color:red;
+}
